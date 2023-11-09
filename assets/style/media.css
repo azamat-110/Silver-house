@@ -1,0 +1,30 @@
+@media (max-width: 1199.99px) {}
+
+
+
+@media (max-width: 991.99px) {
+    .nav__list-link{
+        font-size: 16px;
+        gap: 20px;
+   }
+
+}
+
+
+
+@media (max-width: 767.99px) {
+    .nav__list{
+        flex-direction: column;
+        display: none;
+    }
+
+    
+
+
+
+
+}
+
+
+
+@media (max-width: 575.99px) {}

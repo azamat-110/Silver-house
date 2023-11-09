@@ -1,0 +1,152 @@
+* {
+  margin: 0;
+  padding: 0;
+  transition: .5s;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+.header__logo {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.header__nav {
+  display: flex;
+  justify-content: center;
+  margin-top: 80px;
+}
+
+.nav__list {
+  display: flex;
+  gap: 40px;
+}
+
+.nav__list-link {
+  color: #8c8a8a;
+  text-align: center;
+  font-family: "arial";
+  font-size: 18px;
+  font-weight: 400;
+
+}
+
+
+
+
+.menu__line{
+  width: 25px;
+  height: 1px;
+  background-color: #353131;
+  /* display: none; */
+  position: absolute;
+}
+
+
+.menu__line::before{
+  content: '';
+  width: 25px;
+  height: 1px;
+  position: inherit;
+  top: 8px;
+  background-color: #353131;
+}
+
+.menu__line::after{
+  content: '';
+  width: 25px;
+  height: 1px;
+  position: inherit;
+  top: -8px;
+  background-color: #353131;
+}
+
+.header__content {
+  height: 500px;
+  background: url(../images/block\ 1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+margin: 30px 100px;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  margin: 0 100px;
+}
+
+.main__content {
+  height: 450px;
+  background: var(--grey, #f0f0f0);
+}
+
+.margin__right {
+  margin-right: 30px;
+  width: 2500px;
+}
+
+.main__title {
+  padding: 50px 40px 20px 40px;
+  color: #4581b7;
+  font-family: arial;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.main__text-left {
+  color: #808080;
+  padding: 0 100px 50px 40px;
+  font-family: arial;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 27px; /* 168.75% */
+}
+
+.main__text-right {
+  padding: 0 40px 0 40px;
+  color: #808080;
+  font-family: arial;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 27px; /* 168.75% */
+}
+
+.space {
+  height: 30px;
+}
+
+footer {
+  height: 150px;
+  display: flex;
+  justify-content: space-between;
+  margin: 30px 100px;
+  background: var(--grey, #f0f0f0);
+}
+
+.footer__logo {
+  padding: 15px 0 15px 40px;
+}
+
+.contacts__text {
+  padding: 40px 40px 10px 0;
+  color: #808080;
+  font-family: arial;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.contacts__number {
+  padding: 0 0 0 50px;
+  color: #808080;
+  font-family: arial;
+  font-size: 25px;
+  font-weight: 700;
+}
